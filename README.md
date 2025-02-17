@@ -10,4 +10,4 @@
 - 联系方式
 
 ## 访问地址
-https://Tai94.github.io.git
+https://Tai94.github.io
