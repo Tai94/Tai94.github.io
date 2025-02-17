@@ -3,132 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>邓远泰的个人简历</title>
+    <title>邓远泰的个人网站</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-            <h1>邓远泰</h1>
-            <p class="basic-info">31岁 | 深圳</p>
-            <p class="contact-info">
-                <span>📞 17688729919</span> | 
-                <span>📧 422500975@qq.com</span>
-            </p>
-        </div>
-    </header>
+    <nav class="navbar">
+        <div class="nav-brand">邓远泰</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#ai-assistant">AI助手</a></li>
+            <li><a href="#contact">联系</a></li>
+        </ul>
+        <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
 
     <main>
-        <section class="job-intention">
-            <h2><i class="fas fa-bullseye"></i> 求职意向</h2>
-            <ul>
-                <li><strong>首选职位：</strong>室内设计主管/3D动画设计师</li>
-                <li><strong>期望薪资：</strong>1.2万-1.5万/月（深圳）</li>
-                <li><strong>行业方向：</strong>室内设计、建筑科技、VR/AR交互设计</li>
-            </ul>
-        </section>
-
-        <section class="core-advantages">
-            <h2><i class="fas fa-star"></i> 核心优势</h2>
-            <ul>
-                <li><strong>资深设计经验：</strong>6年+室内设计全流程经验，擅长方案设计、施工图深化及项目落地管理。</li>
-                <li><strong>技术跨界能力：</strong>精通3D建模（3D Max/Lumion）、VR/AR交互设计（虚幻引擎）、BIM（ARCHICAD），推动设计从静态图纸向沉浸式体验升级。</li>
-                <li><strong>团队与项目管理：</strong>曾统筹多部门协作项目，主导设计标准化流程，提升团队效率30%。</li>
-                <li><strong>行业前瞻视野：</strong>探索VR/AR技术在室内设计中的应用，提出"交互式设计体验"解决方案。</li>
-            </ul>
-        </section>
-
-        <section class="work-experience">
-            <h2><i class="fas fa-briefcase"></i> 工作经历</h2>
-            
-            <div class="job">
-                <div class="job-header">
-                    <h3>室内设计主管 | 广东智科仪器设备有限公司（深圳）</h3>
-                    <span class="date">2022.09 – 至今</span>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="profile-info">
+                    <div class="profile-image">
+                        <!-- 这里放置个人照片 -->
+                        <img src="profile.jpg" alt="邓远泰的照片">
+                    </div>
+                    <div class="profile-text">
+                        <h1>邓远泰</h1>
+                        <p class="basic-info">31岁 | 深圳</p>
+                        <p class="contact-info">
+                            <span>📞 17688729919</span> | 
+                            <span>📧 422500975@qq.com</span>
+                        </p>
+                        <div class="social-links">
+                            <a href="#" title="微信"><i class="fab fa-weixin"></i></a>
+                            <a href="#" title="QQ"><i class="fab fa-qq"></i></a>
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="about" class="resume-content">
+            <section class="job-intention">
+                <h2><i class="fas fa-bullseye"></i> 求职意向</h2>
                 <ul>
-                    <li>主导10+大型实验室、展厅项目设计，管理3人团队，平均项目周期缩短20%。</li>
-                    <li>创新引入Lumion实时渲染技术，客户方案确认效率提升40%；探索VR方案演示，中标率提高25%。</li>
-                    <li>建立标准化项目归档系统，实现资料检索效率提升50%。</li>
+                    <li><strong>首选职位：</strong>室内设计主管/3D动画设计师</li>
+                    <li><strong>期望薪资：</strong>1.2万-1.5万/月（深圳）</li>
+                    <li><strong>行业方向：</strong>室内设计、建筑科技、VR/AR交互设计</li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="job">
-                <div class="job-header">
-                    <h3>室内设计师 | 深圳市建筑设计研究总院有限公司</h3>
-                    <span class="date">2017.12 – 2022.09</span>
-                </div>
+            <section class="core-advantages">
+                <h2><i class="fas fa-star"></i> 核心优势</h2>
                 <ul>
-                    <li>参与商业综合体、办公空间设计，累计交付项目面积超5万㎡，施工图精准度达98%。</li>
-                    <li>优化BIM协作流程，减少跨专业冲突问题30%；获"年度最佳协作项目奖"。</li>
-                    <li>现场解决施工难题20+次，客户满意度100%。</li>
+                    <li><strong>资深设计经验：</strong>6年+室内设计全流程经验，擅长方案设计、施工图深化及项目落地管理。</li>
+                    <li><strong>技术跨界能力：</strong>精通3D建模（3D Max/Lumion）、VR/AR交互设计（虚幻引擎）、BIM（ARCHICAD），推动设计从静态图纸向沉浸式体验升级。</li>
+                    <li><strong>团队与项目管理：</strong>曾统筹多部门协作项目，主导设计标准化流程，提升团队效率30%。</li>
+                    <li><strong>行业前瞻视野：</strong>探索VR/AR技术在室内设计中的应用，提出"交互式设计体验"解决方案。</li>
                 </ul>
-            </div>
+            </section>
 
-            <div class="job">
-                <div class="job-header">
-                    <h3>助理设计师 | 深圳中建邓宇装饰有限公司</h3>
-                    <span class="date">2017.03 – 2017.12</span>
+            <section class="work-experience">
+                <h2><i class="fas fa-briefcase"></i> 工作经历</h2>
+                
+                <div class="job">
+                    <div class="job-header">
+                        <h3>室内设计主管 | 广东智科仪器设备有限公司（深圳）</h3>
+                        <span class="date">2022.09 – 至今</span>
+                    </div>
+                    <ul>
+                        <li>主导10+大型实验室、展厅项目设计，管理3人团队，平均项目周期缩短20%。</li>
+                        <li>创新引入Lumion实时渲染技术，客户方案确认效率提升40%；探索VR方案演示，中标率提高25%。</li>
+                        <li>建立标准化项目归档系统，实现资料检索效率提升50%。</li>
+                    </ul>
                 </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <h3>室内设计师 | 深圳市建筑设计研究总院有限公司</h3>
+                        <span class="date">2017.12 – 2022.09</span>
+                    </div>
+                    <ul>
+                        <li>参与商业综合体、办公空间设计，累计交付项目面积超5万㎡，施工图精准度达98%。</li>
+                        <li>优化BIM协作流程，减少跨专业冲突问题30%；获"年度最佳协作项目奖"。</li>
+                        <li>现场解决施工难题20+次，客户满意度100%。</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <h3>助理设计师 | 深圳中建邓宇装饰有限公司</h3>
+                        <span class="date">2017.03 – 2017.12</span>
+                    </div>
+                    <ul>
+                        <li>协助完成住宅、酒店方案设计，独立输出施工图50+套，0误差交付。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="skills">
+                <h2><i class="fas fa-tools"></i> 技能与工具</h2>
                 <ul>
-                    <li>协助完成住宅、酒店方案设计，独立输出施工图50+套，0误差交付。</li>
+                    <li><strong>设计软件：</strong>3D Max（精通）、Lumion（高级）、AutoCAD（精通）、Photoshop（熟练）</li>
+                    <li><strong>前沿技术：</strong>虚幻引擎（UE4/UE5场景动画）、ARCHICAD（BIM建模）、VR/AR交互设计</li>
+                    <li><strong>证书：</strong>助理工程师（2020）</li>
                 </ul>
-            </div>
-        </section>
+            </section>
 
-        <section class="skills">
-            <h2><i class="fas fa-tools"></i> 技能与工具</h2>
-            <ul>
-                <li><strong>设计软件：</strong>3D Max（精通）、Lumion（高级）、AutoCAD（精通）、Photoshop（熟练）</li>
-                <li><strong>前沿技术：</strong>虚幻引擎（UE4/UE5场景动画）、ARCHICAD（BIM建模）、VR/AR交互设计</li>
-                <li><strong>证书：</strong>助理工程师（2020）</li>
-            </ul>
-        </section>
-
-        <section class="education">
-            <h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
-            <div class="job">
-                <div class="job-header">
-                    <h3>珠海艺术职业学院 | 大专 | 艺术设计学</h3>
-                    <span class="date">2013.07 – 2016.07</span>
+            <section class="education">
+                <h2><i class="fas fa-graduation-cap"></i> 教育背景</h2>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>珠海艺术职业学院 | 大专 | 艺术设计学</h3>
+                        <span class="date">2013.07 – 2016.07</span>
+                    </div>
+                    <ul>
+                        <li><strong>主修课程：</strong>室内设计原理、3D建模基础、建筑制图</li>
+                        <li><strong>荣誉：</strong>优秀毕业设计（Top 5%）、优秀团员</li>
+                    </ul>
                 </div>
+            </section>
+
+            <section class="portfolio">
+                <h2><i class="fas fa-palette"></i> 作品集亮点</h2>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+                        <h3>VR展厅交互设计（虚幻引擎）</h3>
+                        <p>沉浸式实验室展厅方案，支持客户实时调整材质与布局，缩短决策周期50%。</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <h3>智慧办公空间BIM模型（ARCHICAD）</h3>
+                        <p>集成灯光、暖通系统模拟，降低施工返工成本15%。</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <h3>商业综合体动画漫游（Lumion）</h3>
+                        <p>4K级动态演示，助力项目竞标成功。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="additional-info">
+                <h2><i class="fas fa-info-circle"></i> 附加信息</h2>
                 <ul>
-                    <li><strong>主修课程：</strong>室内设计原理、3D建模基础、建筑制图</li>
-                    <li><strong>荣誉：</strong>优秀毕业设计（Top 5%）、优秀团员</li>
+                    <li><strong>语言：</strong>客家话（母语）、粤语(流利）、普通话（流利）</li>
+                    <li><strong>兴趣：</strong>独立游戏场景设计、建筑科技趋势研究</li>
                 </ul>
+            </section>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <h2><i class="fas fa-palette"></i> 作品展示</h2>
+            <div class="carousel">
+                <button class="carousel-button prev">❮</button>
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="work1.jpg" alt="作品1">
+                        <div class="carousel-caption">VR展厅设计</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="work2.jpg" alt="作品2">
+                        <div class="carousel-caption">智慧办公空间</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="work3.jpg" alt="作品3">
+                        <div class="carousel-caption">商业综合体</div>
+                    </div>
+                </div>
+                <button class="carousel-button next">❯</button>
             </div>
         </section>
 
-        <section class="portfolio">
-            <h2><i class="fas fa-palette"></i> 作品集亮点</h2>
-            <div class="portfolio-items">
-                <div class="portfolio-item">
-                    <h3>VR展厅交互设计（虚幻引擎）</h3>
-                    <p>沉浸式实验室展厅方案，支持客户实时调整材质与布局，缩短决策周期50%。</p>
+        <section id="ai-assistant" class="ai-chat-section">
+            <h2><i class="fas fa-robot"></i> AI助手</h2>
+            <div class="chat-container">
+                <div class="chat-messages">
+                    <!-- 消息将在这里动态添加 -->
                 </div>
-                <div class="portfolio-item">
-                    <h3>智慧办公空间BIM模型（ARCHICAD）</h3>
-                    <p>集成灯光、暖通系统模拟，降低施工返工成本15%。</p>
-                </div>
-                <div class="portfolio-item">
-                    <h3>商业综合体动画漫游（Lumion）</h3>
-                    <p>4K级动态演示，助力项目竞标成功。</p>
+                <div class="chat-input">
+                    <input type="text" placeholder="输入您的问题...">
+                    <button><i class="fas fa-paper-plane"></i></button>
                 </div>
             </div>
         </section>
 
-        <section class="additional-info">
-            <h2><i class="fas fa-info-circle"></i> 附加信息</h2>
-            <ul>
-                <li><strong>语言：</strong>客家话（母语）、粤语(流利）、普通话（流利）</li>
-                <li><strong>兴趣：</strong>独立游戏场景设计、建筑科技趋势研究</li>
-            </ul>
+        <section id="contact" class="contact-section">
+            <h2><i class="fas fa-envelope"></i> 联系我</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="text" placeholder="您的姓名" required>
+                        <input type="email" placeholder="您的邮箱" required>
+                        <textarea placeholder="您的留言" required></textarea>
+                        <button type="submit">发送消息</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>深圳市</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <p>17688729919</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <p>422500975@qq.com</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 邓远泰的个人简历. 保留所有权利。</p>
+        <p>&copy; 2024 邓远泰的个人网站. 保留所有权利。</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html> 
