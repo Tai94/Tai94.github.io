@@ -181,6 +181,85 @@ footer {
     margin-top: 3rem;
 }
 
+.header-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.basic-info {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0.5rem 0;
+}
+
+.contact-info {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.job-intention {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.core-advantages {
+    margin: 2rem 0;
+}
+
+.core-advantages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.core-advantages li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.portfolio-item {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.job {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.date {
+    color: #666;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -201,6 +280,15 @@ footer {
     }
 
     .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .job-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .portfolio-items {
         grid-template-columns: 1fr;
     }
 } 
